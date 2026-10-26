@@ -1,0 +1,29 @@
+
+@startuml
+title Activity Diagram 1 - Problem Reporting and Handling
+
+start
+
+:User enters problem details;
+:User submits the report;
+
+if (Required information complete?) then (Yes)
+  :Create problem report;
+  :Set status to SUBMITTED;
+  :Make report available for review;
+else (No)
+  :Show validation errors;
+  :User corrects the information;
+  :Resubmit the report;
+  if (Required information complete now?) then (Yes)
+    :Create problem report;
+    :Set status to SUBMITTED;
+    :Make report available for review;
+  else (No)
+    :Ask user to correct the information;
+    stop
+  endif
+endif
+
+stop
+@enduml
