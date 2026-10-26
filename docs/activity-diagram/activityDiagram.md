@@ -18,7 +18,7 @@ The target community has not been finalized yet. Therefore, the diagrams use the
 
 This diagram shows the process from submitting a problem report to reviewing it, assigning it for investigation, and recording the outcome.
 
-
+```mermaid
 flowchart TD
     A([Start]) --> B[User enters report information]
     B --> C{Is the information valid?}
@@ -40,7 +40,7 @@ flowchart TD
     Q --> P
     K --> R([End])
     P --> R
-
+```
 
 
 2. Report Review and Assignment
@@ -48,7 +48,7 @@ flowchart TD
 
 This diagram focuses on the SupportAgent's review of a submitted problem, priority determination, and assignment to a FieldAgent when appropriate.
 
-
+```mermaid
 flowchart TD
     A([Start]) --> B[SupportAgent reviews the report]
     B --> C{Is the report acceptable?}
@@ -63,7 +63,7 @@ flowchart TD
     G -- No --> L[Keep the report under review]
     L --> K
     K --> J
-
+```
 
 
 3. Problem Status Tracking
@@ -71,7 +71,7 @@ flowchart TD
 
 This diagram shows how a user searches for a report and views its current status and priority.
 
-
+```mermaid
 flowchart TD
     A([Start]) --> B[User searches for a report]
     B --> C{Is the report found?}
@@ -83,7 +83,7 @@ flowchart TD
     H -- Yes --> I[Display report details]
     H -- No --> E
     I --> E
-
+```
 
 
 Assumptions and Open Questions
