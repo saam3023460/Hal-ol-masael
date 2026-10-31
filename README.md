@@ -16,7 +16,6 @@ The project aims to improve communication between community members and the orga
 
 ## Team
 
-**Team Name:** Hal Ol Masael
 
 ### Team Members
 
