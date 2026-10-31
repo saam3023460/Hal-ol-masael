@@ -1,7 +1,7 @@
 # Software Requirements Specification (SRS)
 ## Hal Ol Masael
 
-**Team Name:** Hal Ol Masael
+**Team Name:** Bisahab
 
 **Team Members:**
 - Saam Shahrouzi
